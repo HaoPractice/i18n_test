@@ -32,7 +32,6 @@ public class ResourceTest {
         System.out.println(login_success);
         String login_error = login_messages.getString("login_error");
         System.out.println(login_error);
-
     }
     private static void getAllMsg(ResourceBundle login_messages) {
         Iterator<String> myMessage = login_messages.getKeys().asIterator();
